@@ -11,3 +11,4 @@ class ProfileForms(forms.ModelForm):
     class Meta:
         model=Profile
         fields=['address','profile_pic']
+        
